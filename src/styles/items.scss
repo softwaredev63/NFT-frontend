@@ -1,0 +1,68 @@
+.items-cover-page-container{
+  height: 260px;
+  background-color: $color-light-gray-background;
+  position: relative;
+}
+.items-profile-page-container{
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.items-profile-page-box{
+  border: 4px solid $color-white;
+  border-radius: 100%;
+  position: relative;
+}
+.items-profile-page{
+  width: 120px;
+   height: 120px;
+  position: relative;
+  & img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px;
+  }
+}
+.edit-profile{
+    color: $color-black-button-text;
+    display: flex;
+    height: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: 1px solid transparent;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    border-color: $color-gray-light-border;
+    margin: 0px 0px 0px 8px;
+}
+.items-bottom-main{
+  margin: 52px 0px 0px;
+}
+.items-bottom-main-container{
+  margin: 0px auto;
+  max-width: 1500px;
+  padding: 0px 16px;
+}
+.items-bottom-setting-username{
+  font-size: 28px;
+  line-height: 33.6px;
+  font-family: inherit;
+  font-weight: 900;
+  text-align: center;
+}
+.items-bottom-setting-edit-buttons{
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-bottom-tabs{
+  margin: 32px 0px 0px;
+}

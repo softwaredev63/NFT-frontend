@@ -1,0 +1,111 @@
+.activity-main-container-box {
+  padding: 32px 0px;
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1020px;
+  display: flex;
+}
+.connect-wallet-box {
+  padding-top: 100px;
+}
+.activity-text {
+  font-weight: 900;
+  font-size: 36px;
+}
+.all-text-box {
+  margin-top: 18px;
+}
+.activity-box {
+  flex: 0 0 60%;
+}
+.all-filter-container {
+  flex: 0 0 35%;
+  //should remove in future
+  padding-top: 100px;
+
+}
+.all-text {
+  font-weight: 900;
+    font-size: 15px;
+    border-bottom: 2.5px solid #000;
+    padding-bottom: 2px;
+}
+.all-text-bottum {
+  background: rgb(4, 4, 5);
+    height: 2px;
+    width: 100%;
+}
+.activity-card {
+  &-container {
+    display: flex;
+    max-width: 560px;
+    height: 125px;
+    margin-top: 10px;
+    border: 1px solid rgba(4, 4, 5, 0.1);
+    border-radius: 16px;
+    align-items: center;
+  }
+  &-left {
+    flex: 0 0 20%;
+    margin-left: 20px;
+    position: relative;
+    & img {
+      height: 68px;
+      width: 68px;
+      border-radius: 100px;
+    }
+  }
+  &-left &-green-tick {
+    position: absolute;
+    background-color:#6dbc00;
+    left: -8px;
+    top: -8px;
+    height: 26px;
+    width: 26px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  &-text {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  &-tag {
+    color: rgb(4, 4, 5);
+    background: transparent;
+    border: 1px solid rgba(4, 4, 5, 0.1);
+    box-shadow: none;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+}
+.activity-card-right {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 68px;
+}
+.activity-card-username {
+  font-weight: 900;
+}
+.activity-card-username-desc {
+  color: rgba(4, 4, 5, 0.5);
+  font-size: 14px;
+  font-weight: 700;
+}
+.activity-card-username-time {
+  color: rgba(4, 4, 5, 0.5);
+  font-size: 14px;
+  font-weight: 700;
+}
+.activity-card-heading {
+  font-weight: 900;
+  font-size: 16px;
+}

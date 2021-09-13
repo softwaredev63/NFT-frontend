@@ -1,0 +1,22 @@
+
+.slider-backgroundcolour {
+  padding-right: 20px;
+  width: 266px;
+  min-width: 266px;
+  & h3 {
+    background-color: $color-slider;
+    height: 265px;
+    width: 95%;
+    border-radius: 10px;  
+  }
+}
+.slick-slider-container {
+  margin: 32px;
+  // margin-top: -20px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

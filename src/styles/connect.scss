@@ -1,0 +1,122 @@
+.connect-container {
+  display: flex;
+  height: 100%;
+}
+.connect-button {
+  border: none;
+  background: transparent;
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 16px;
+  & svg {
+    margin-right: 10px;
+  }
+}
+.connect-image-container {
+  flex: 0 0 30%;
+  & img {
+    height: 100%;
+    width: 100%;
+  }
+  @media only screen and (max-width:548px) {
+    display: none;
+  }
+}
+.connect-wallet-container {
+  flex: 0 0 70%;
+  max-width: 560px;
+  @media only screen and (max-width:548px) {
+    flex: 0 0 100%;
+  }
+}
+.connect-wallet-box {
+  padding: 0 100px;
+  @media only screen and (max-width:548px) {
+    margin: 0 25px;
+    padding: 0 0;
+  }
+}
+.connect-your-wallet-container {
+  margin: 16px 0px 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+.connect-your-wallet-text {
+  font-size: 36px;
+  font-weight: 900;
+}
+.connect-your-wallet-desc-container {
+  margin: 8px 0px 0px;
+}
+.connect-your-wallet-desc-text {
+  text-decoration: none;
+    color: rgba(4, 4, 5, 0.5);
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.what-is-wallet-button {
+  background: transparent;
+  border: none;
+  color: #2667ff;
+}
+.connect-wallet-buttons-container {
+  margin: 32px 0px 0px;
+  align-items: stretch;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(4, 4, 5);
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.connect-wallet-buttons-box {
+  margin: 0px;
+  padding: 0px;
+  align-items: stretch;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(4, 4, 5);
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.add-wallet-button {
+  border: 1px solid rgba(4, 4, 5, 0.1);
+  height: 56px;
+  border-radius: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 360px;
+  padding: 0 24px;
+  margin: 5px 0;
+  & img {
+    width: 28px;
+    height: 28px;
+  }
+  @media only screen and (max-width: 548px){
+    padding: 0 0 0 24px;
+    width: auto;
+  }
+}
+.add-wallet-button-text {
+  font-weight: 900;
+    text-align: center;
+}
+.add-wallet-button-text-container {
+  flex: 1;
+  text-align: center;
+}
+.connect-wallet-bottum-desc-box {
+  margin: 32px 0px 0px;
+    padding: 0px;
+}
+.connect-wallet-bottum-desc-text {
+  text-decoration: none;
+  color: rgba(4, 4, 5, 0.5);
+  font-size: 14px;
+}

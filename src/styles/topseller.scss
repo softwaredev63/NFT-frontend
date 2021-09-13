@@ -1,0 +1,43 @@
+.profile-card-container {
+  display: flex;
+  margin-left: 32px;
+  margin-top: 30px;
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+}
+.profile-card-pictue {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin-left: 15px;
+  position: relative;
+  & img {
+    height: 100%;
+    width: 100%;
+  border-radius: 50px;
+    object-fit: contain;
+  }
+}
+.profile-card-tick {
+  position: absolute;
+  right: -2px;
+  bottom: -4px;
+}
+.profile-card-text {
+  margin-left: 15px;
+  font-size: 15px;
+    line-height: 20.7px;
+    font-family: inherit;
+    font-weight: 900;
+  color: rgb(4, 4, 5);
+}
+.profile-card-price {
+  text-decoration: none;
+    color: rgba(4, 4, 5, 0.5);
+    font-size: 14px;
+    line-height: 19.32px;
+    font-family: inherit;
+    font-weight: inherit;
+}

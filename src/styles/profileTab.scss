@@ -1,0 +1,23 @@
+.tab-uper-value{
+  color: $color-light-gray-tab;
+  vertical-align: top;
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 16.56px;
+  font-family: inherit;
+  font-weight: 900;
+}
+.profile-tabs .react-tabs__tab-list {
+  border-bottom: none;
+  color: $color-light-gray-tab;
+  font-size: 15px;
+  line-height: 20.7px;
+  font-family: inherit;
+  font-weight: 900;
+}
+.profile-tab-selected {
+    background: none;
+    color: black;
+    border-bottom: 3px solid $color-dark;
+    padding: 6px 0;
+}

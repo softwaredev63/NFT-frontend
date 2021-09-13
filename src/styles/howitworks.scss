@@ -1,0 +1,99 @@
+.activity-main-container-box {
+  padding: 32px 0px;
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1020px;
+  display: flex;
+}
+.activity-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.activity-header-container {
+  width: 100%;
+  height: 45px;
+  line-height: 1.2;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;;
+  align-items: center;
+  justify-content: space-between;
+}
+.activity-header-left-data {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.activity-header-right-data {
+  display: flex;
+  align-items: center;
+}
+.activity-header-right {
+  &-search {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    & svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+    }
+    &:first-child {
+      border-right:1px solid gray ;
+    }
+  } 
+}
+.activity-content-container {
+  padding: 0px 96px;
+  max-width: 100%;
+  width: 900px;
+}
+.activity-content-header-image-container {
+  width: 124px;
+  height: 124px;
+  margin-top: 96px;
+  margin-left: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.activity-content-heading {
+  padding: 3px 2px;
+  color: rgb(55, 53, 47);
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    cursor: text;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 45px;
+}
+.activity-content-heading-secondary {
+  color: rgb(105,64,165);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 1.875em;
+    line-height: 1.3;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+
+}
+.activity-content-subheading {
+  margin-left: 5px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  &-text {
+    margin-left: 5px;
+    margin-bottom: 15px;
+ }
+}
+

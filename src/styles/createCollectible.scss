@@ -1,0 +1,289 @@
+.collectible-main-container {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 815px;
+}
+.collectible-main-box{
+  margin: 0px;
+  padding: 0px 16px;
+}
+.collectible-main-inner-box{
+  margin: 0px;
+  padding: 28px 0px;
+  max-width: 100%;
+}
+.collectible-uploads-container{
+  margin: 32px 0px 0px;
+  padding: 0px;
+  display: flex;
+}
+.collectible-uploads-left{
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0px;
+  min-width: 0px;
+  max-width: 100%;
+}
+.collectible-uploads-left-box{
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+}
+.collectible-uploads-file-box{
+  margin: 8px 0px 0px;
+  padding: 0px;
+}
+.collectible-uploads-file-main-container{
+  border: 2px dashed $color-gray-light-border;
+    min-height: 140px;
+    padding: 32px 60px;
+    position: relative;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.choose-file-text{
+  text-decoration: none;
+  color: $color-gray-font;
+  font-size: 15px;
+  line-height: 20.7px;
+  font-weight: 500;
+  text-align: center;
+}
+.put-on-sale-text{
+  font-family: inherit;
+    font-size: 18px;
+    line-height: 24.84px;
+    font-weight: 900;
+}
+.put-on-sale{
+  color: rgb(0, 102, 255);
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(126.49deg, rgb(0, 163, 255) 0%, rgb(0, 102, 255) 100%);
+    background-clip: text;
+}
+.put-on-sale-desc{
+    color: $color-gray-font;
+    font-size: 14px;
+    line-height: 19.32px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.unlock-once-purchased{
+  color: rgb(12, 80, 255);
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(12, 80, 255) 0%, rgb(12, 80, 255) 24%, rgb(91, 157, 255) 55.73%, rgb(255, 116, 241) 75%, rgb(255, 116, 241) 100%);
+    background-clip: text;
+    width: max-content;
+  }
+.Preview-text{
+  text-decoration: none;
+  color: inherit;
+  font-size: 17px;
+  line-height: 23.46px;
+  font-family: inherit;
+  font-weight: 900;
+  @media only screen and (max-width:800px) {
+    display: none;
+  }
+}
+.Preview-img{
+  border-radius: 6px;
+}
+.royalties-and-no-copies{
+  display: flex;
+}
+.Preview-img-cross{
+  border-radius: 100%;
+  background-color: $color-white;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid $color-gray-light-border;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.collectible-one-piece-service-fee{
+    text-decoration: none;
+    color: $color-gray-font;
+    font-size: 15px;
+    line-height: 20.7px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.choose-files {
+    display: flex;
+    height: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    width: fit-content;
+    min-width: 160px;
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    transition: all 0.12s ease-in-out 0s;
+    transform-origin: center center;
+    user-select: none;
+    cursor: pointer;
+    border-color: transparent;
+    margin: 10px auto;
+  color: $color-blue;
+  background: $color-light-button-background;
+}
+.collectible-put-on-sale-container {
+  margin: 32px 0px 0px;
+  justify-content: space-between;
+  display: flex;
+}
+.collectible-price-for-one-sale-container{
+  margin: 32px 0px 0px;
+  justify-content: space-between;
+}
+.collectible-one-piece {
+  width: 100%;
+  display: flex;
+}
+.collectible-dropdown .Dropdown-control{
+  border: none;
+}
+
+.digital-key-text-area {
+  border:none;
+  resize: none;
+  border-bottom: 2px solid $color-gray-light-border;
+  height: 51.6px;
+  width: 100%;
+  &::placeholder {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: inherit;
+    color: $color-placeholder;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.collectible-choose-collection-main{
+  display: flex;
+  margin: 16px 0px 0px;
+}
+.collectible-choose-collection-left{
+  border: 1px solid $color-gray-light-border;
+  height: 140px;
+  width: 128px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collectible-choose-collection-right{
+  margin: 0px 0px 0px 16px;
+  border: 1px solid $color-blue;
+  height: 140px;
+  width: 128px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  & img {
+    height: 38.64px;
+    width: 38.64px;
+    border-radius: 100%;
+  }
+}
+.collectible-choose-collection-iner-box{
+  margin: 8px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collectible-choose-collection-item-uper-text{
+  font-weight: 700;
+}
+.collectible-choose-collection-item-bottom-text{
+  color: $color-gray-font;
+  font-size: 12px;
+  line-height: 16.56px;
+}
+.collectible-uploads-bottom{
+  margin: 48px 0px 0px;
+  border-width: 0px;
+}
+.collectible-uploads-bottom-main{
+  border-width: 0px;
+}
+.collectible-uploads-bottom-main-container{
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+}
+.collectible-uploads-bottom-main-box{
+  border-width: 0px;
+}
+.collectible-wallet-and-crate{
+  background-color: $color-blue;
+  color: $color-white;
+  display: flex;
+  height: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 1px solid transparent;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.collectible-unsaved-changes{
+  padding: 8px 0px 0px;
+  border-width: 0px;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  color: $color-gray-font;
+  font-size: 14px;
+  line-height: 19.32px;
+  font-family: inherit;
+  font-weight: 500;
+}
+.collectible-uploads-right {
+  margin: 0px 0px 0px 48px;
+  border-width: 0px;
+  flex-basis: 240px;
+  @media only screen and (max-width:800px) {
+    display: none;
+  }
+}
+.collectible-uploads-right-Preview {
+  margin: 8px 0px 0px;
+  border-width: 0px;
+}
+.collectible-uploads-right-Preview-main {
+  width: 100%;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(4, 4, 5, 0.1);
+}
+.collectible-uploads-right-Preview-main-container {
+  border-width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+.collectible-description-box {
+  display: flex;
+}
